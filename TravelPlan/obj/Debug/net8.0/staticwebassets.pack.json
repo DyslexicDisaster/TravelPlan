@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelPlan.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TravelPlan.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TravelPlan.props",
+      "PackagePath": "build\\TravelPlan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TravelPlan.props",
+      "PackagePath": "buildMultiTargeting\\TravelPlan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TravelPlan.props",
+      "PackagePath": "buildTransitive\\TravelPlan.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
