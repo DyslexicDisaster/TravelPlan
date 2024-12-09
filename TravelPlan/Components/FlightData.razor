@@ -1,0 +1,37 @@
+﻿<!--@using Newtonsoft.Json
+@using TravelPlan.API
+@inject FlightService FlightService
+@rendermode InteractiveServer
+
+<h3>Search Flights</h3>
+
+<div>
+    <label>Enter Location:</label>
+    <input @bind="Query" placeholder="City or Airport" />
+    <button @onclick="SearchFlights">Search</button>
+</div>
+
+@if (Suggestions != null && Suggestions.Any())
+{
+    <ul>
+        @foreach (var suggestion in Suggestions)
+        {
+            <li>@suggestion</li>
+        }
+    </ul>
+}
+else if (!string.IsNullOrWhiteSpace(ErrorMessage))
+{
+    <p class="text-danger">@ErrorMessage</p>
+}
+
+@code {
+    private string Query;
+    private List<string> Suggestions = new();
+    private string ErrorMessage;
+
+    private async Task SearchFlights()
+    {
+        
+    }
+}-->
