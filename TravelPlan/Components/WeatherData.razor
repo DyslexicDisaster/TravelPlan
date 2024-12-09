@@ -1,0 +1,75 @@
+﻿@using TravelPlan.API
+@inject TravelPlan.API.WeatherService WeatherService
+@rendermode InteractiveServer
+
+<h3>Weather Forecast</h3>
+
+<div class="weather-form">
+    <label for="city">Enter City:</label>
+    <input id="city" @bind="City" placeholder="Enter city name" />
+    <button @onclick="GetWeather" class="btn btn-primary">Get Forecast</button>
+</div>
+
+@if (IsLoading)
+{
+    <p>Loading weather data...</p>
+}
+else if (ForecastData != null)
+{
+    <div class="weather-results">
+        <h4>Weather in @ForecastData.location.name, @ForecastData.location.country</h4>
+        <ul class="forecast-list">
+            @foreach (var day in ForecastData.forecast.forecastday)
+            {
+                <li class="forecast-item">
+                    <h5>@day.date</h5>
+                    <ul>
+                        <li>🌡️ Max Temp: @day.day.maxtemp_c °C</li>
+                        <li>❄️ Min Temp: @day.day.mintemp_c °C</li>
+                        <li>☁️ Condition: @day.day.condition.text</li>
+                        <li>
+                            <img src="https:@day.day.condition.icon" alt="@day.day.condition.text" class="weather-icon" onerror="this.src='/images/default-weather.png';" />
+                        </li>
+                    </ul>
+                </li>
+            }
+        </ul>
+    </div>
+}
+else if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <p class="text-danger">@ErrorMessage</p>
+}
+
+@code {
+    private string City = "Dublin";
+    private WeatherApiResponse ForecastData;
+    private string ErrorMessage;
+    private bool IsLoading;
+
+    private async Task GetWeather()
+    {
+        if (string.IsNullOrWhiteSpace(City))
+        {
+            ErrorMessage = "Please enter a valid city name.";
+            return;
+        }
+
+        IsLoading = true;
+        ErrorMessage = null;
+        ForecastData = null;
+
+        try
+        {
+            ForecastData = await WeatherService.GetThreeDayForecast(City);
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"An error occurred while fetching data: {ex.Message}";
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+}
