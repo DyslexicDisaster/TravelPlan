@@ -27,3 +27,9 @@ C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\Trav
 C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\TravelPlan.pdb
 C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\TravelPlan.genruntimeconfig.cache
 C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\ref\TravelPlan.dll
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\bin\Debug\net8.0\RestSharp.dll
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\TravelPlan.csproj.AssemblyReference.cache
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\TravelPlan.sourcelink.json
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\TravelPlan.csproj.Up2Date
+C:\Users\smath\OneDrive\Documents\DKIT_Year_3\Web Frameworks\CA2\TravelPlan\TravelPlan\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css

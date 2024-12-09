@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UoSEdnTWOX4=",
+  "dgSpecHash": "gH4gXQ6sc64=",
   "success": true,
   "projectFilePath": "C:\\Users\\smath\\OneDrive\\Documents\\DKIT_Year_3\\Web Frameworks\\CA2\\TravelPlan\\TravelPlan\\TravelPlan.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\smath\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\smath\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -30,16 +30,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/WeatherData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXZWF0aGVyRGF0YS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/_Imports.razor]
@@ -53,3 +53,7 @@ build_metadata.AdditionalFiles.CssScope = b-6nkgdae5q9
 [C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-5pz1m4oqub
+
+[C:/Users/smath/OneDrive/Documents/DKIT_Year_3/Web Frameworks/CA2/TravelPlan/TravelPlan/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gaw52b6vcy
