@@ -31,7 +31,7 @@
         public double wind_kph { get; set; }
         public int wind_degree { get; set; }
         public string wind_dir { get; set; }
-        public double? pressure_mb { get; set; } // Updated to handle nullable or float values
+        public double? pressure_mb { get; set; } 
         public double pressure_in { get; set; }
     }
 
@@ -69,8 +69,8 @@
         public double maxwind_kph { get; set; }
         public double totalprecip_mm { get; set; }
         public double totalprecip_in { get; set; }
-        public double? totalsnow_cm { get; set; } // Updated earlier
-        public double? avgvis_km { get; set; }   // Updated to double? for flexibility
+        public double? totalsnow_cm { get; set; } 
+        public double? avgvis_km { get; set; }   
         public double? avgvis_miles { get; set; }
         public int avghumidity { get; set; }
         public int daily_will_it_rain { get; set; }
@@ -112,7 +112,7 @@
         public double wind_kph { get; set; }
         public int wind_degree { get; set; }
         public string wind_dir { get; set; }
-        public double? pressure_mb { get; set; } // Changed to double?
+        public double? pressure_mb { get; set; } 
         public double pressure_in { get; set; }
         public double precip_mm { get; set; }
         public double? precip_in { get; set; }
